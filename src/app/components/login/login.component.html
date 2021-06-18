@@ -1,0 +1,26 @@
+<div class="container center">
+    <div>
+        <div class="row">
+            <div class="col-md-5" style="  border: 3px solid black;">
+                <img src="assets/images/logo.png" alt="Bashkim" class="responsive">
+            </div>
+            <div class="col-md-7">			
+                <div class="block-unit" style="text-align:center; padding:8px 8px 8px 8px;">
+                    <img src="assets/images/face80x80.jpg" alt="" class="img-circle">
+                    <br>
+                    <br>
+                        <form  #loginForm="ngForm" (ngSubmit)="getLogin(loginForm)">
+                            <fieldset>
+                                <p>
+                                    <input id="username" ngModel  name="username" type="text" class="form-control" placeholder="Username">
+                                    <input id="password" ngModel  name="password" type="password" class="form-control" placeholder="Password">
+                                </p>
+                                    <input class="submit btn-primary" type="submit" >
+                            </fieldset>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>    
